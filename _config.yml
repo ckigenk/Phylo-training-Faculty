@@ -1,0 +1,32 @@
+
+url: https://yourorganization.github.io/Phylogenetic-Training
+baseurl: "" # Leave empty for the root directory
+
+theme: jekyll-theme-slate  # You can change the theme to something more colorful, like minima or jekyll-theme-cayman
+
+# Color customization using Jekyll's theme settings (you can customize further in CSS)
+theme_color: "#FF5733"  # Primary color for buttons, links, etc.
+secondary_color: "#1E90FF"  # Accent color
+
+# Google Analytics or other analytics code (optional)
+# google_analytics: "UA-XXXXXXX-X"
+
+# Markdown options
+markdown: kramdown
+highlighter: rouge
+
+# Additional settings (optional)
+logo: "/assets/images/logo.png"  # Path to your logo image (optional)
+favicon: "/assets/images/favicon.ico"  # Path to your favicon (optional)
+
+# Links for footer or other places (optional)
+social_links:
+  - icon: "github"
+    url: "https://github.com/yourusername/Phylogenetic-Training"
+  - icon: "twitter"
+    url: "https://twitter.com/yourtwitterhandle"
+  - icon: "linkedin"
+    url: "https://www.linkedin.com/in/yourlinkedinprofile"
+
+# Include other site-wide information
+contact_email: torrorey@gmail.com
