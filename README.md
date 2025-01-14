@@ -1,1 +1,143 @@
-# Phylo-training-Faculty
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <style>
+        /* Custom styles to center the content */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8; /* Light gray background */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+
+        /* Header background: no full width */
+        header {
+            background-color: #737373; /* Light Blue */
+            color: white;
+            padding: 2rem;  /* Padding inside the header */
+            text-align: center;
+            margin: 0; /* Centers the header and limits its width */
+        }
+
+        /* Footer background remains full-width */
+        footer {
+            background-color: #D6F5D6; /* Light Green */
+            color: #333;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        /* Center the content and give it padding */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Styling sections for spacing */
+        section {
+            margin: 2rem 0;
+        }
+
+        /* Stronger headings with larger font sizes */
+        h1, h2 {
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #FF5733; /* Keeping the color of h2 as a subtle contrast */
+        }
+        p {
+            font-size: 1rem;
+        }
+
+        /* Styling links */
+        a {
+            color: #1E90FF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #FF5733;
+        }
+
+        /* Registration section styling */
+        .registration {
+            background-color: #FFFAF0; /* Off-white background for clarity */
+            border-left: 5px solid #FF5733;
+            padding: 20px;
+        }
+
+        /* Button styling */
+        button {
+            background-color: #FF5733;
+            color: white;
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #E04E2B;
+        }
+    </style>
+</head>
+<body>
+
+
+<main>
+    <section>
+        <h1>Phylogenetics Training at Moi University</h1>
+        <p>A 1-week training on phylogenetic tree construction at Moi University, in collaboration with Johan Nordgren from Linköping University, Division of Molecular Medicine and Virology.</p>
+        <h2>About the Training</h2>
+        <p><strong>Date:</strong> February 24 - 28, 2025</p>
+        <p><strong>Location:</strong> Moi University, College of Health Sciences, Main Campus, Eldoret, Kenya</p>
+    </section>
+
+    <section>
+        <h2>Eligibility</h2>
+        <p>This training is aimed at researchers, students, and professionals interested in understanding how to construct and analyze phylogenetic trees.</p>
+    </section>
+
+    <section>
+        <h2>Topics Covered</h2>
+        <ul>
+            <li><strong>Introduction to Phylogenetics</strong></li>
+            <li><strong>Tools and Software for Tree Construction</strong></li>
+            <li><strong>Practical Exercises on Sequence Alignment and Tree Building</strong></li>
+        </ul>
+    </section>
+
+    <section class="registration">
+        <h2>Registration Information</h2>
+        <p><strong>Registration Deadline:</strong> January 31, 2025</p>
+        <p><strong>How to Register:</strong> Please fill out the registration form <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYV5J6zjmCPBO7S75SydNNeDDvVqdjW1llf03HBND_lnwc3w/viewform?usp=header" target="_blank">here</a>.</p>
+       
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+         <p>For inquiries, contact us at: <a href="mailto:torrorey@gmail.com">torrorey@gmail.com</a></p>
+         </section>
+</main>
+
+
+</body>
+</html>
