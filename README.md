@@ -1,1 +1,1 @@
-![My Image](FacultyFlyer.jpg)
+![My Image](FacultyFlyer.png)
